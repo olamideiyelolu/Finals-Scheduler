@@ -10,11 +10,11 @@ pattern = re.compile(r'^([A-Z]+)-(\d{3}[A-Z]?)')
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
     #Insert database credential here
-    host="35.222.200.83",
+    host="00.000.000.00",
     port="5432",
     dbname="postgres",
     user="postgres",
-    password="Ol@m1de427#"
+    password="##########"
 )
 
 cursor = conn.cursor()
@@ -52,4 +52,5 @@ for dept in departments:
             
 conn.commit()
 cursor.close()
+
 conn.close()
